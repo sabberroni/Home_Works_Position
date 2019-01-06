@@ -1,0 +1,37 @@
+.parent{
+	min-height: 400px;
+	background-color: #ddd;
+	position: relative;
+}
+.child1, .child2, .child3, .child4, .child5{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.child1{
+	background-color:red;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: 150px auto;
+}
+.child2{
+	background-color:grey;
+	top: 0;
+	right: 0;
+}
+.child3{
+	background-color:purple;
+	top: 0;
+	left: 0;
+}
+.child4{
+	background-color:skyblue;
+	bottom: 0;
+	left: 0;
+}
+.child5{
+	background-color:green;
+	bottom: 0;
+	right: 0;
+}
